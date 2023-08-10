@@ -1,0 +1,36 @@
+.hero__btn {
+  color: $white-color;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: $aqua-color;
+  padding: 19px 95px;
+  margin-bottom: 158px;
+
+  &:hover {
+    background-color: $fil-aqua;
+  }
+}
+.btnn {
+  color: $white-color;
+  border-radius: 30px;
+  background-color: $aqua-color;
+
+  &:hover {
+    background-color: $aqua-color;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero__btn {
+    width: 270px;
+    height: 48px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    color: $white-color;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
